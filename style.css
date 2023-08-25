@@ -1,0 +1,227 @@
+html {
+   scroll-behavior: smooth;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+         /* navbar container starts */
+.navbar{
+    background-color: rgb(7, 76, 7);
+    
+}
+.nav-item:hover{
+    background-color:whitesmoke;
+    
+    border-radius: 5px;
+    opacity: 0.3;
+}
+.nav-item a:hover{
+    color: black;
+    font-weight: 600;
+}
+
+.dropdown-menu{
+    background-color:green;
+    opacity: 0.9;
+}
+                           /* navbar container ends */
+                           /* seeds container */
+.seedshead{
+    color: rgb(7, 76, 7);
+    text-shadow: 10px 15px 15px rgba(0,0,0,0.3);
+  
+}   
+      
+
+.off-price{
+    color: rgb(11, 108, 11);
+}
+.real-price{
+    color: gray;
+   text-decoration:line-through;
+}
+.offer{
+     color: rgb(11, 108, 11);
+}
+
+.pack{
+    height:35px;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cart{
+    height:35px;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+   
+}
+.cart{
+     background-color:  rgb(11, 108, 11);
+     color:whitesmoke;
+     border-color: rgb(11, 108, 11);
+  
+}
+
+.cart:hover{
+    background-color: whitesmoke;
+    border-color: rgb(11, 108, 11);
+    color: rgb(11, 108, 11);
+ }
+
+
+.subseeds {
+    
+   background-color: #e5e5e5;
+  
+}
+.card img{
+    width: 200px;
+    height: 200px;
+   
+    
+}
+.card{
+    width: 250px;
+    height: 250px;
+    background-color: #e5e5e5;
+    border:none !important;
+    box-shadow: 15px 20px 20px rgba(0,0,0,0.3),
+                inset 4px 4px 10px white;
+    border-radius: 20px !important;
+    overflow: hidden;
+ 
+    justify-content:center;
+    align-items: center;
+    margin:  20px 20px;
+  
+    
+}
+#seeds {
+    background-color: #e5e5e5;
+    text-align: center;
+}
+#growbags {
+     background-color: #e5e5e5;
+}
+
+#soil-coco {
+    background-color: #e5e5e5;
+}
+#manure-compost{
+    background-color: #e5e5e5;
+}
+#growth-promoters{
+    background-color: #e5e5e5;
+}
+#organic-pesticides{
+    background-color: #e5e5e5;
+}
+#accessories{
+    background-color: #e5e5e5;
+}
+#bio-fertilizer{
+    background-color: #e5e5e5;
+}
+.flowerseeds{
+    background-color: #e5e5e5;
+}
+.tuberseeds{
+    background-color: #e5e5e5;
+}
+.herbalseeds{
+    background-color: #e5e5e5;
+}
+.hybridseeds{
+    background-color: #e5e5e5;
+}
+
+#contact{
+    background-color: #e5e5e5;
+}
+#contact img{
+height: 100%;
+}
+.box{
+    width:100%;
+   
+    margin-top:10px;
+    
+}
+
+.info{
+    display: flex;
+    flex-direction:column;
+}
+#contact input{
+    margin: 10px 0px;
+}
+
+#contact textarea{
+    margin: 10px 0px;
+}
+
+.send{
+    height:35px;
+   
+    text-align: center;
+    border-radius: 5px;
+}
+.send{
+     background-color:  rgb(11, 108, 11);
+     color:whitesmoke;
+     border-color: rgb(11, 108, 11);
+  
+}
+
+.send:hover{
+    background-color: whitesmoke;
+    border-color: rgb(11, 108, 11);
+    color: rgb(11, 108, 11);
+ }
+
+ .workflow{
+    background-color: #e5e5e5; 
+}
+
+footer{
+    height: 30px;
+    width: 100%;
+    background-color: black;
+    color:whitesmoke;
+    text-align: center;
+
+}
+
+.gotop{
+    position: fixed;
+    /* display:none; */
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    border-radius: 50px;
+    bottom: 40px;
+    right: 10px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color:white;
+    font-size: 22px;
+    transition: background-color 0.2s
+}
+
+@media (max-width:375) {
+    .card{
+      display: flex;
+      justify-content:space-evenly;
+      align-items: center;
+    }
+}
